@@ -8,4 +8,4 @@
 ### Work Split
 * Lucas - Morse code, file class
 * Husain - Telegraph, main code
-* Faisal - Pidgeon
+* Faisal - Pigeon
