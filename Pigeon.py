@@ -15,5 +15,5 @@ class pigeon:
 		self.message = str(input('What would you like to send? '))
 		print(self.message) 
 
-pigeon()
+#pigeon()
 		
