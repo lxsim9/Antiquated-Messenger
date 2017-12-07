@@ -1,82 +1,83 @@
-print ('User tips: Every line has a character and each slash indicates the start of a new word. ')
+ print ('A slash indicates the start of a new word. ')
 message = input('What is your message? \n')
 
 for x in range (len(message)):
 	if message[x] == 'A' or  message[x] == 'a':
-		print('.-')
+		print('.-', end=' ')
 	elif message[x] == 'B' or  message[x] == 'b':
-		print('-...')
+		print('-...', end=' ')
 	elif message[x] == 'C' or  message[x] == 'c':
-		print('-.-.')
+		print('-.-.', end=' ')
 	elif message[x] == 'D' or  message[x] == 'd':
-		print('-..')
+		print('-..', end=' ')
 	elif message[x] == 'E' or  message[x] == 'e':
-		print('.')
+		print('.', end=' ')
 	elif message[x] == 'F' or  message[x] == 'f':
-		print('..-.')
+		print('..-.', end=' ')
 	elif message[x] == 'G' or  message[x] == 'g':
-		print('--.')
+		print('--.', end=' ')
 	elif message[x] == 'H' or  message[x] == 'h':
-		print('....')
+		print('....', end=' ')
 	elif message[x] == 'I' or  message[x] == 'i':
-		print('..')
+		print('..', end=' ')
 	elif message[x] == 'J' or  message[x] == 'j':
-		print('.---')
+		print('.---', end=' ')
 	elif message[x] == 'K' or  message[x] == 'k':
-		print('-.-')
+		print('-.-', end=' ')
 	elif message[x] == 'L' or  message[x] == 'l':
-		print('.-..')
+		print('.-..', end=' ')
 	elif message[x] == 'M' or  message[x] == 'm':
-		print('--')
+		print('--', end=' ')
 	elif message[x] == 'N' or  message[x] == 'n':
-		print('-.')
+		print('-.', end=' ')
 	elif message[x] == 'O' or  message[x] == 'o':
-		print('---')
+		print('---', end=' ')
 	elif message[x] == 'P' or  message[x] == 'p':
-		print('.--.')
+		print('.--.', end=' ')
 	elif message[x] == 'Q' or  message[x] == 'q':
-		print('--.-')
+		print('--.-', end=' ')
 	elif message[x] == 'R' or  message[x] == 'r':
-		print('.-.')
+		print('.-.', end=' ')
 	elif message[x] == 'S' or  message[x] == 's':
-		print('...')
+		print('...', end=' ')
 	elif message[x] == 'T' or  message[x] == 't':
-		print('-')
+		print('-', end=' ')
 	elif message[x] == 'U' or  message[x] == 'u':
-		print('..-')
+		print('..-', end=' ')
 	elif message[x] == 'V' or  message[x] == 'v':
-		print('...-')
+		print('...-', end=' ')
 	elif message[x] == 'W' or  message[x] == 'w':
-		print('.--')
+		print('.--', end=' ')
 	elif message[x] == 'X' or  message[x] == 'x':
-		print('-..-')
+		print('-..-', end=' ')
 	elif message[x] == 'Y' or  message[x] == 'y':
-		print('-.--')
+		print('-.--', end=' ')
 	elif message[x] == 'Z' or  message[x] == 'z':
-		print('--..')
+		print('--..', end=' ')
 	elif message[x] == '0':
-		print('-----')
+		print('-----', end=' ')
 	elif message[x] == '1':
-		print('.----')
+		print('.----', end=' ')
 	elif message[x] == '2':
-		print('..---')
+		print('..---', end=' ')
 	elif message[x] == '3':
-		print('...--')
+		print('...--', end=' ')
 	elif message[x] == '4':
-		print('....-')
+		print('....-', end=' ')
 	elif message[x] == '5':
-		print('.....')
+		print('.....', end=' ')
 	elif message[x] == '6':
-		print('-....')
+		print('-....', end=' ')
 	elif message[x] == '7':
-		print('--...')
+		print('--...', end=' ')
 	elif message[x] == '8':
-		print('---..')
+		print('---..', end=' ')
 	elif message[x] == '9':
-		print('----.')
+		print('----.', end=' ')
 	elif message[x] == ' ':
 		print('/')
 	else:
 		print('Character at position ' + message[x] + 'cannot be identified')
 
 x+1
+print('')
