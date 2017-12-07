@@ -20,8 +20,10 @@ class pigeon:
 				 /=(_
 			      -./--' `
 			    ,^-(_
-			    ,--' `    """
-			
+			    ,--' ` """  
+		print(self.body) 
+	
+			     
 
 
 	def send_message(self, message)
