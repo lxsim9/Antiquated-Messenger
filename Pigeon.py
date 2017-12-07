@@ -1,7 +1,8 @@
 class pigeon:
 	def __init__(self, name, body)
 		self.name = "Chyna"
-		self.body= .-''-.
+		self.body = """
+			   .-''-.
 			  / ,    \
 		       .-'`(o)    ;
 		      '-==.       |
@@ -19,7 +20,8 @@ class pigeon:
 				 /=(_
 			      -./--' `
 			    ,^-(_
-			    ,--' `                                                                                                               
+			    ,--' `    """
+			
 
 
 	def send_message(self, message)
