@@ -4,12 +4,12 @@ class pigeon:
 		self.body = '                    --                                                             
                        \                 /   @ )
                          \              _/_ |~ \)
-						   \       ( ( (    \ \
-						   	 ( ( ( ( ( (     | \
-					_ _=(_(_(_(_(_(_(_(_  _ _ / )
-						              - _ _ _  /
-						                   _\__
-						                  `   "' "
+			   \       ( ( (    \ \
+				 ( ( ( ( ( (     | \
+			_ _=(_(_(_(_(_(_(_(_  _ _ / )
+				      - _ _ _  /
+					   _\__
+					  `   "' "
 
 	def send_message(self, message)
 		self.message = str(input('What would you like to send? '))
