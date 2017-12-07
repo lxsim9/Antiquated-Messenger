@@ -1,7 +1,7 @@
 class pigeon:
 	def __init__(self, name, body)
 		self.name = "Chyna"
-		self.body = '                    --                                                             
+		self.body =                     --                                                             
                        \                 /   @ )
                          \              _/_ |~ \)
 			   \       ( ( (    \ \
