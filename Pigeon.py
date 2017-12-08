@@ -27,8 +27,8 @@ class pigeon:
 
 
 	def send_message(self, message)
-		self.message = str(input('What would you like to send? '))
-		print(self.message) 
+		self.message = message 
+		return self.message 
 
-#pigeon()
+
 		
