@@ -23,4 +23,4 @@ mypigeon = pigeon("Chyna", """
 	     <<__ \\__
 	      /`)))/`)))
 """)
-mypigeon.send_message("hey")
+mypigeon.send_message()
