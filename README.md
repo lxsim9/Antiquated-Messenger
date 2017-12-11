@@ -7,5 +7,5 @@
 
 ### Work Split
 * Lucas - Main Code, File Class
-* Husain - Morse Class, Encrypt Class
-* Faisal - Pigeon Class
+* Husain - Morse Class
+* Faisal - Pigeon Class, Town Crier
