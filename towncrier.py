@@ -10,7 +10,7 @@ class crier:
 		print(self.news)
 
 mycrier = crier("Earl The Crier", """
- #####      
+        #####      
       #### _\_    
       ##=-[.].]   
       #(    _\    
