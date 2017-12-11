@@ -6,6 +6,6 @@
 * 1 class for writing file
 
 ### Work Split
-* Lucas - Morse code, file class
-* Husain - Telegraph, main code
-* Faisal - Pigeon
+* Lucas - Main Code, File Class
+* Husain - Morse Class, Encrypt Class
+* Faisal - Pigeon Class
